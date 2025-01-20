@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cataleg>
+    <llista_actors>
+        <!-- Actor 1 -->
+        <actor id="RA">
+            <nom>Rafael Amaya</nom>
+        </actor>
+        <!-- Actor 2 -->
+        <actor id="SN">
+            <nom>Silvia Navarro</nom>
+            <edat>46</edat>
+        </actor>
+        <!-- Actor 3 -->
+        <actor id="SU">
+            <nom>Shakti Urrutia</nom>
+        </actor>
+        <!-- Actor 4 -->
+        <actor id="WS">
+            <nom>Will Smith</nom>
+            <edat>56</edat>
+        </actor>
+        <!-- Actor 5 -->
+        <actor id="TLJ">
+            <nom>Tommy Lee Jones</nom>
+            <edat>78</edat>
+        </actor>
+        <!-- Actor 6 -->
+        <actor id="TS">
+            <nom>Tony Shalhoud</nom>
+        </actor>
+        <!-- Actor 7 -->
+        <actor id="JPU">
+            <nom>Juan Pablo Urrego</nom>
+            <edat>39</edat>
+        </actor>
+        <!-- Actor 8 -->
+        <actor id="CG">
+            <nom>Catalina Garcia</nom>
+            <edat>38</edat>
+        </actor>
+        <!-- Actor 9 -->
+        <actor id="PT">
+            <nom>Patricia Tamayo</nom>
+            <edat>53</edat>
+        </actor>
+    </llista_actors>
+    <llista_pelicules>
+        <!-- Pelicula 1 -->
+        <pelicula id="ALL">
+            <titol idioma="Espanyol">Amor letra por letra</titol>
+            <director>Luis Eduardo Reyes</director>
+            <any>2008</any>
+            <actors>
+                <!-- 'ref' referencia ids dels actors -->
+                <actor_ref ref="RA"></actor_ref>
+                <actor_ref ref="SN"></actor_ref>
+                <actor_ref ref="SU"></actor_ref>
+            </actors>
+        </pelicula>
+        <!-- Pelicula 2 -->
+        <pelicula id="HN">
+            <titol idioma="Espanyol">Hombres de negreo</titol>
+            <director>Barry Sonnenfeld</director>
+            <any>1997</any>
+            <actors>
+                <!-- 'ref' referencia ids dels actors -->
+                <actor_ref ref="WS"></actor_ref>
+                <actor_ref ref="TLJ"></actor_ref>
+                <actor_ref ref="TS"></actor_ref>
+            </actors>
+        </pelicula>
+        <!-- Pelicula 3 -->
+        <pelicula id="AN">
+            <titol idioma="Espanyol">Amigo de Nadie</titol>
+            <director>Luis Alberto Restrepo</director>
+            <any>2019</any>
+            <actors>
+                <!-- 'ref' referencia ids dels actors -->
+                <actor_ref ref="JPU"></actor_ref>
+                <actor_ref ref="CG"></actor_ref>
+                <actor_ref ref="PT"></actor_ref>
+            </actors>        
+        </pelicula>
+    </llista_pelicules>
+    <llista_recomendacions_pelicules>
+        <!-- 'ref' referencia ids de les pelicules -->
+        <!-- Recomenació 1 -->
+        <recomenacio ref="ALL"></recomenacio>
+        <!-- Recomenació 2 -->
+        <recomenacio ref="HN"></recomenacio>
+        <!-- Recomenació 3 -->
+        <recomenacio ref="AN"></recomenacio>
+    </llista_recomendacions_pelicules>
+</cataleg>

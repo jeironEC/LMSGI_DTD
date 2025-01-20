@@ -1,0 +1,9 @@
+<!DOCTYPE esdeveniments [
+    <!ELEMENT esdeveniments (esdeveniment+)>
+    <!ELEMENT esdeveniment (grup, lloc, data, entrada)>
+    <!ELEMENT grup (#PCDATA)>
+    <!ELEMENT lloc (#PCDATA)>
+    <!ELEMENT data (#PCDATA)>
+    <!ELEMENT entrada ANY>
+    <!ATTLIST entrada gratuita (si|no) #REQUIRED>
+]>
